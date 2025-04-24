@@ -17,3 +17,16 @@ console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
 let newton;
 newton = celsius * (33/100);
 console.log(newton);
+
+
+// Conditions 
+let sale = true;
+
+sale = false;
+
+if(sale) {
+  console.log('Time to buy!');
+}else{
+  console.log('Time to wait for a sale.')
+}
+
