@@ -81,3 +81,14 @@ switch (athleteFinalPosition) {
     console.log('No medal awarded.');
     break;
 }  
+
+// Underined function
+const plantNeedsWater = function(day){
+  if (day === 'Wednesday'){
+   return true;
+  }
+  else{
+    return false;
+  }
+}
+console.log(plantNeedsWater('Wednesday'))
